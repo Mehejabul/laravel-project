@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\backend\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,19 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('backend.dashboard.index');
 })->middleware(['auth', 'verified'])->name('admin');
+
+
+
+Route::group(['prefix' => 'user'], function() {
+       Route::get('/',[UserController::class, 'index'])->name('user.index');
+       Route::get('/create',[UserController::class,'create'])->name('user.create');
+       Route::post('/store',[UserController::class,'store'])->name('user.store');
+       Route::get('/show/{slug}',[UserController::class,'show'])->name('user.show');
+       Route::get('/edit/{slug}',[UserController::class,'edit'])->name('user.edit');
+       Route::put('/update/{slug}',[UserController::class,'update'])->name('user.update');
+       Route::get('/softdelete/{slug}',[Usercontroller::class,'softdelete'])->name('user.softdelete');
+       Route::get('/delete/{slug}',[UserController::class,'softdelete'])->name('user.delete');
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

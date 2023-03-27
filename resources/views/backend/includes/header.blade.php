@@ -11,6 +11,8 @@
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{asset('backend')}}/assets/images/favicon.ico">
 
+    @yield('custom-css')
+
     <!-- preloader css -->
     <link rel="stylesheet" href="{{asset('backend')}}/assets/css/preloader.min.css" type="text/css" />
 
