@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 
 Route::get('/admin', function () {
-    return view('backend.dashboard.index');
+    return view('layouts.admin');
 })->middleware(['auth', 'verified'])->name('admin');
 
 
