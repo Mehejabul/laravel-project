@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+a,a:hover{
+    text-decoration: none;
+    color: black;
+}
+ul,li{
+    list-style-type: none;
+
+}
+
+.card_header h4{
+    margin-top: 5 px;
+}

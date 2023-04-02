@@ -24,6 +24,7 @@
 <!--begin::Global Javascript Bundle(mandatory for all pages)-->
 <script src="{{asset('backend')}}/assets/plugins/global/plugins.bundle.js"></script>
 <script src="{{asset('backend')}}/assets/js/scripts.bundle.js"></script>
+<script src="{{asset('backend')}}/assets/js/bootstrap.bundle.min.js"></script>
 <!--end::Global Javascript Bundle-->
 
 <!--begin::Vendors Javascript(used for this page only)-->
