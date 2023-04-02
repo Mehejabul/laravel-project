@@ -46,7 +46,7 @@
                     </div>
                      <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 mb-md-5 mb-xl-10">
                         <div class="card card-flush bgi-no-repeat"
-                            style="background-color: #F1416C;background-image:url('{{asset('backend')}}/assets/media/patterns/vector-1.png')">
+                            style="background-color: #5b1ece;background-image:url('{{asset('backend')}}/assets/media/patterns/vector-1.png')">
                             <div class="card-header pt-5">
                                 <div class="card-title d-flex flex-column">
                                     <span class="fs-2hx fw-bold text-white me-2 lh-1 ls-n2">69</span>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 mb-md-5 mb-xl-10">
                         <div class="card card-flush bgi-no-repeat"
-                            style="background-color: #F1416C;background-image:url('{{asset('backend')}}/assets/media/patterns/vector-1.png')">
+                            style="background-color: #0feee3;background-image:url('{{asset('backend')}}/assets/media/patterns/vector-1.png')">
                             <div class="card-header pt-5">
                                 <div class="card-title d-flex flex-column">
                                     <span class="fs-2hx fw-bold text-white me-2 lh-1 ls-n2">69</span>
@@ -86,7 +86,7 @@
                     </div>
                      <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 mb-md-5 mb-xl-10">
                         <div class="card card-flush bgi-no-repeat"
-                            style="background-color: #F1416C;background-image:url('{{asset('backend')}}/assets/media/patterns/vector-1.png')">
+                            style="background-color: #8ff10e;background-image:url('{{asset('backend')}}/assets/media/patterns/vector-1.png')">
                             <div class="card-header pt-5">
                                 <div class="card-title d-flex flex-column">
                                     <span class="fs-2hx fw-bold text-white me-2 lh-1 ls-n2">69</span>
